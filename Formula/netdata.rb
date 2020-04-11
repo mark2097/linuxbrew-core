@@ -53,8 +53,7 @@ class Netdata < Formula
                           "--with-zlib",
                           "--enable-dbengine",
                           "--with-user=netdata",
-                          "UUID_CFLAGS=-I/usr/include",
-                          "UUID_LIBS=-lc"
+                          "UUID_CFLAGS=-I/usr/include"
     system "make", "clean"
     system "make", "install"
 
